@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  padding:0px;
+}
+
+first {
+  display: block;
+  width : 100vw;
+  height: 100vh;
+  background-image : url("assets/Aurora.png");
+  background-size: cover;
+}
+
+team{
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:100%;
+}
+
+touch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self:center;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  width: 30%;
+  margin: 0px auto;
+  transition-duration: 0.5s
+}
+
+touch:hover{
+  background-color: orange;
+  border-color: orange;
+  color: black;
+}
+
+teamname{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 10px;
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+teammembers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+member{
+  display: flex;
+  margin: 20px 100px;
+  flex-grow: 1;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: black;
+}
+
+fourth{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  background-color: blue;
+}
+
+cards{
+  display: inline;
+}
+
+introcard{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(150, 150, 150);
+  border-radius:30px;
+  height: 400px;
+  width: 280px;
+  margin: 100px;
+  background-color: lightblue;
+}
+
+img{
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+img.bar{
+  border-radius: 10px;
+  margin-top:0px;
+  width: 70px;
+  background-color: rgb(150, 150, 150);
+}
+
+.first{
+  align-items: center;
+  justify-content: center;
+}
+
+.last{
+    width: 400px;
+    height: 200px;
+    margin: 300px auto;
+    /*margin-top: 300px;*/
+    /*margin-left: 570px;*/
+    border-style: solid;
+    box-shadow: 10px 10px;
+    transition: box-shadow 0.3s;
+}
+.last:hover{
+    box-shadow: none;
+}
+.text{
+    margin-left:90px;
+    padding: 20px;
+}
+.ab{
+    margin: 0px 150px;
+    padding: 10px;
+    background-color: rgb(19, 134, 241);
+    transition: background-color 0.4s;
+}
+.ab:hover{
+    background-color: greenyellow;
+}
+
+button .after {
+    display: none;
+}
+
+button:hover .before {
+    display: none;
+}
+
+button:hover .after {
+    display: inline;
+}
+
+.flex-container {
+    position: relative;
+    display: flex;
+    text-align: center;
+    height: 450px;
+    width: 1000px;
+    margin: 100px auto;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33.33%;
+}
+.item{
+    flex-grow:1;
+    flex-basis: 0;
+    height: 150px;
+    background-color: black;
+    color: brown;
+    border-style: solid;
+    border-color: gold;
+    transition: flex-grow .3s ;
+}
+.item:hover{
+    flex-grow: 100;
+    transition: flex-grow .3s;
+
+ }
+
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 87, 87);
+}
+.lang{
+    background-color: teal;
+    width: 150px;
+    height: 200px;
+    margin-left: 180px;
+    margin-top: 150px;
+    margin-bottom: 150px;   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: background-color 0.4s;
+}
+.lang:hover{
+    background-color: rgb(0, 161, 161);
+}
+
+button .after {
+        display: none;
+    }
+    
+    button:hover .before {
+        display: none;
+    }
+
+    button:hover .after {
+        display: inline;
+    }
