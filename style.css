@@ -120,11 +120,10 @@ img.bar{
     width: 400px;
     height: 200px;
     margin: 300px auto;
-    /*margin-top: 300px;*/
-    /*margin-left: 570px;*/
     border-style: solid;
     box-shadow: 10px 10px;
     transition: box-shadow 0.3s;
+    background-image:radial-gradient(yellow,orange);
 }
 .last:hover{
     box-shadow: none;
@@ -169,14 +168,18 @@ button:hover .after {
     flex-basis: 33.33%;
 }
 .item{
+  display: flex;
+    font-size: 20px;
     flex-grow:1;
     flex-basis: 0;
     height: 150px;
-    background-color: black;
+    background-image: linear-gradient(to right,black, blue, black);
     color: brown;
     border-style: solid;
     border-color: gold;
     transition: flex-grow .3s ;
+    align-items: center;
+    justify-content: center;
 }
 .item:hover{
     flex-grow: 100;
@@ -189,13 +192,12 @@ button:hover .after {
     flex-direction: row;
     background-color: rgb(0, 87, 87);
 }
+
 .lang{
     background-color: teal;
     width: 150px;
     height: 200px;
-    margin-left: 180px;
-    margin-top: 150px;
-    margin-bottom: 150px;   
+    margin: 150px auto;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +205,7 @@ button:hover .after {
     transition: background-color 0.4s;
 }
 .lang:hover{
-    background-color: rgb(0, 161, 161);
+    background-color: rgb(128,0,128);
 }
 
 button .after {
